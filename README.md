@@ -7,7 +7,7 @@ Note this was only ever built as a quick fix, so it's untested, etc etc.
 ## Installation
 
 ```
-npm install socket.log
+$ sudo npm install -g socketlog
 ```
 
 ## Support
@@ -19,7 +19,7 @@ _Should_ work on pretty much anything – will use WebSockets where available, a
 1. Start the server:
 
 	```
-	npm start
+	$ socketlog
 	```
 
 2. Run a console window in a browser, go to [http://localhost:8088](http://localhost:8088), and open the JS console (CMD+ALT+J in Chrome).

@@ -1,11 +1,20 @@
 {
-    "name": "socket.log",
-    "version": "0.1.0",
+    "name": "socketlog",
+    "version": "0.1.1",
     "description": "Remote debugging logger for JavaScript.",
     "dependencies": {
-        "tinytim": "0.1.0"
+        "tinytim": "0.1.0",
+        "socket.io": "~0.9.16"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/richardbutler/socketlog.git"
+    },
+    "bin": {
+        "socketlog": "bin/socketlog"
     },
     "scripts": {
         "start": "node ."
-    }
+    },
+    "preferGlobal": true
 }
