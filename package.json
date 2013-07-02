@@ -1,0 +1,11 @@
+{
+    "name": "socket.log",
+    "version": "0.1.0",
+    "description": "Remote debugging logger for JavaScript.",
+    "dependencies": {
+        "tinytim": "0.1.0"
+    },
+    "scripts": {
+        "start": "node ."
+    }
+}

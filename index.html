@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+
+<script>
+    var socket = io.connect( "http://" + location.host ),
+        list = document.getElementById( "log" );
+
+    socket.on( "log", function ( data ) {
+        var level = data.level || "log",
+            message = data.message || data;
+
+        console[ level ].apply( console, message );
+    });
+</script>
+
+</body>
+</html>
